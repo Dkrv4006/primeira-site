@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+
+html, body{height: 100%;}
+
+.bg{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url('../logolivejhonata.jpg');
+	background-size: 100% auto;
+}
+
+.Center {
+	background: rgb(102, 1, 52);
+	border: 16px solid;
+	width: 120px;
+	height: 120px;
+	border-top: 16px solid rgb(211, 37, 6);
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+	0% {transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
